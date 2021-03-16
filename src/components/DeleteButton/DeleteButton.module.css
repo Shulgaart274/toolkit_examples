@@ -1,0 +1,28 @@
+.destroy {
+  position: absolute;
+  border: none;
+  outline: none;
+  right: 32px;
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+.destroy:hover {
+  opacity: 1;
+}
+.destroy:before,
+.destroy:after {
+  position: absolute;
+  top: 0;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #cc9a9a;
+}
+.destroy:before {
+  transform: rotate(45deg);
+}
+.destroy:after {
+  transform: rotate(-45deg);
+}

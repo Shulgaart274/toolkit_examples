@@ -1,0 +1,16 @@
+.container {
+  max-width: 550px;
+  min-width: 230px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.15);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}

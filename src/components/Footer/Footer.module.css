@@ -1,0 +1,78 @@
+.todoFilterContainer {
+  box-sizing: border-box;
+  outline: none;
+  color: #4d4d4d;
+  background-color: #fff;
+  border: none;
+
+  width: 100%;
+  font-size: 14px;
+  border-bottom: 0.2px solid #ddd;
+  display: flex;
+  padding: 10px 20px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 20%), 0 8px 0 -3px #f6f6f6,
+    0 9px 1px -3px rgb(0 0 0 / 20%), 0 16px 0 -6px #f6f6f6,
+    0 17px 2px -6px rgb(0 0 0 / 20%);
+}
+
+.todoFilterList {
+  display: flex;
+}
+
+.todoFilterCounter {
+  width: 30%;
+  padding: 5px;
+}
+
+.todoFilterItem {
+  margin-right: 15px;
+}
+
+.todoFilterItem:last-child {
+  margin-right: 0;
+}
+
+.todoFilterAll:hover,
+.todoFilterActive:hover,
+.todoFilterCompleted:hover {
+  border: 1px solid rgba(204, 154, 154, 0.6);
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.todoFilterClear {
+  margin-left: 8%;
+}
+
+.todoFilterClearall:hover {
+  text-decoration: underline;
+}
+
+.todoFilterAll,
+.todoFilterActive,
+.todoFilterCompleted,
+.todoFilterClearall {
+  outline: none;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.todoFilterAll:active,
+.todoFilterAll:focus,
+.todoFilterActive:active,
+.todoFilterActive:focus,
+.todoFilterCompleted:active,
+.todoFilterCompleted:focus {
+  border: 1px solid #cc9a9a;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
